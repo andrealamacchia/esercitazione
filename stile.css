@@ -1,0 +1,86 @@
+body{
+    max-width: 1400px;
+}
+
+header{
+    
+    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.tasti{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+
+.tasti nav ul{
+    list-style: none;
+    word-spacing: 100px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.tasti a:hover{
+    text-decoration: underline;
+}
+
+header h1{
+margin-left: 150px;
+font-size: 50px;
+}
+
+.nomi {
+    display: flex;
+    margin-right: auto;
+    width: auto;
+    padding-left: 10px;
+    max-width: 1000px;
+    margin-left: 120px;
+     justify-content: space-between;
+}
+
+.nomi2 {
+    display: flex;
+    margin-right: auto;
+    width: auto;
+    padding-left: 10px;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+main{
+    max-width: none;
+}
+
+.preview1, .preview2{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.preview1 img{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.preview2 img{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+main img{
+    border-radius: 10px;
+    box-shadow: 10px 10px  10px 5px grey;
+    display: flex;
+    justify-content: space-between;
+}
